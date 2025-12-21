@@ -221,13 +221,13 @@ A sample Excel file is included in the repository at `public/sample-attendance.x
 ## 📸 Screenshots
 
 ### Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.png)
 
 ### File Upload
-![Upload](screenshots/upload.png)
+![Upload](upload_file.png)
 
 ### Daily Breakdown
-![Breakdown](screenshots/breakdown.png)
+![Breakdown](daily_breakdown.png)
 
 
 
