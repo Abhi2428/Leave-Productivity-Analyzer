@@ -2,9 +2,6 @@
 
 A full-stack web application that analyzes employee attendance, leave usage, and productivity based on uploaded Excel attendance sheets.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](YOUR_VERCEL_URL_HERE)
-[![GitHub](https://img.shields.io/badge/github-repo-blue.svg)](YOUR_GITHUB_URL_HERE)
-
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -232,33 +229,7 @@ A sample Excel file is included in the repository at `public/sample-attendance.x
 ### Daily Breakdown
 ![Breakdown](screenshots/breakdown.png)
 
-*Note: Add actual screenshots to the `screenshots/` folder*
 
-## 🚀 Deployment
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Visit [Vercel](https://vercel.com)
-3. Import your repository
-4. Add environment variables:
-   - `DATABASE_URL`
-5. Deploy!
-
-### MongoDB Atlas Setup
-
-1. Create account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-2. Create a new cluster
-3. Get connection string
-4. Add to `.env` as `DATABASE_URL`
-
-## 🎓 Academic Information
-
-**Project**: NMIMS Intern Technical Assignment
-**Company**: Kenmark ITan Solutions
-**Student**: [Your Name]
-**Student ID**: [Your ID]
-**Email**: [Your Email]
 
 ## 📝 Evaluation Criteria Met
 
@@ -284,21 +255,20 @@ This project is created for educational purposes as part of an internship assign
 
 ## 👤 Author
 
-**[Your Name]**
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
+**Abhishek Sheth**
+- GitHub: [@Abhi2428](https://github.com/Abhi2428)
+- Email: abhisheth28@gmail.com
+- LinkedIn: [Abhishek Sheth](www.linkedin.com/in/abhishek-sheth-20baa8200)
 
 ## 🙏 Acknowledgments
 
 - NMIMS University
 - Kenmark ITan Solutions
-- Next.js and Vercel teams
-- MongoDB and Prisma teams
+
 
 ---
 
-**Live Demo**: [View Application](YOUR_VERCEL_URL)  
-**Repository**: [View Code](YOUR_GITHUB_URL)
+
+**Repository**: [View Code]((https://github.com/Abhi2428/Leave-Productivity-Analyzer))
 
 Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
