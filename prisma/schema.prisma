@@ -1,0 +1,37 @@
+// Prisma Schema for MongoDB
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Employee {
+  id          String       @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  employeeId  String?
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+  attendance  Attendance[]
+
+  @@unique([name])
+}
+
+model Attendance {
+  id           String    @id @default(auto()) @map("_id") @db.ObjectId
+  employeeId   String    @db.ObjectId
+  employee     Employee  @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  date         DateTime
+  inTime       String?
+  outTime      String?
+  workedHours  Float     @default(0)
+  isLeave      Boolean   @default(false)
+  dayType      String    // "weekday", "saturday", "sunday"
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  @@unique([employeeId, date])
+}
